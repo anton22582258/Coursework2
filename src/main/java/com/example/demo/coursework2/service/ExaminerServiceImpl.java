@@ -32,18 +32,7 @@ public class ExaminerServiceImpl implements ExaminerService {
         }
         return setRandom;
     }
- /*   @Override
-    public Collection<Question> getQuestions(int amount) {
-        if (amount <= 0 || amount > questionService.getAll().size()) {
-            throw new IncorrectAmountOfQuestionException("В списке нет столько вопросов");
-        }
-        Set<Question> result = new HashSet<>();
-        while (result.size() < amount) {
-            result.add(questionService.getRandomQuestion());
-        }
 
-        return result;
-    }*/
 }
 
 
